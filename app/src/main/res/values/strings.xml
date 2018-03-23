@@ -5,5 +5,5 @@
     <string name="dialog">Dialog</string>
     <string name="description">This is an Activity set with a Dialog style.</string>
     <string name="cancel">Cancel</string>
-    <string name="ok">OK</string>
+    <string name="_new">NEW</string>
 </resources>
