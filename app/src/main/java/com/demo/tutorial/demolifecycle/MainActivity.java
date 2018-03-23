@@ -1,5 +1,6 @@
 package com.demo.tutorial.demolifecycle;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -49,15 +50,15 @@ public class MainActivity extends AppCompatActivity {
 
         counter++;
 
-        // We get a warning if we concatenate text within the setText method
-        // TODO: 3/18/2018 onCreate() - find out why an error is generated when text is concatenated inside View.setText
+        // Don't concatenate string within the append method. Bad practice
         String message = counter + ON_CREATE_MESSAGE;
         tvLog.append(message);
     }
 
-    // TODO: 3/18/2018 alertPrompt() - Create and show a dialog
+    // Start an Activity with a Dialog style
     private void alertPrompt() {
-
+        Intent intent = new Intent(this, DialogActivity.class);
+        startActivity(intent);
     }
 
     private void reset() {

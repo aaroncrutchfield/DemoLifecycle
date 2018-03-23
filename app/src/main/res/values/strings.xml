@@ -2,4 +2,8 @@
     <string name="app_name">DemoLifecycle</string>
     <string name="reset">Reset</string>
     <string name="alert">Alert</string>
+    <string name="dialog">Dialog</string>
+    <string name="description">This is an Activity set with a Dialog style.</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
 </resources>
